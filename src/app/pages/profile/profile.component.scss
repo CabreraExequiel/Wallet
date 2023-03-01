@@ -1,0 +1,52 @@
+  .example-card {
+    margin: 0.5rem auto;
+    max-width: 500px;
+  }
+
+  .example-header-image {
+    height: 5rem;
+    width: 5rem;
+    background-image: url(../../../assets/favico.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .example-header-image{
+    display: block;
+    margin: 0.5rem auto;
+  }
+
+  mat-card-title{
+      text-align: center;
+  }
+
+  mat-list-item{
+    font-size: 0.4rem;
+    text-overflow: ellipsis;
+    border-bottom: 1px solid #f3f3f3;
+  }
+
+  mat-list-item:nth-last-child(1){
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: center;
+    margin-top: 1rem;
+    letter-spacing: 0.4rem;
+    text-overflow: ellipsis;
+    border:none;
+    align-content: center;
+  }
+
+  mat-list-item:nth-last-child(1) span{
+    border-bottom: 1px solid #f3f3f3;
+  }
+
+  span{
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    margin-right: 0.2rem;
+  }
+
+  ::ng-deep .mat-card-header-text {
+    display: none;
+  }
